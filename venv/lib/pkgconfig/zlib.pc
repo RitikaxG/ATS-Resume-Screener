@@ -1,0 +1,13 @@
+prefix=/Users/ritikagupta/Desktop/ATS_Resume_Screener/venv
+exec_prefix=/Users/ritikagupta/Desktop/ATS_Resume_Screener/venv
+libdir=/Users/ritikagupta/Desktop/ATS_Resume_Screener/venv/lib
+sharedlibdir=/Users/ritikagupta/Desktop/ATS_Resume_Screener/venv/lib
+includedir=/Users/ritikagupta/Desktop/ATS_Resume_Screener/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
